@@ -1,0 +1,30 @@
+.nav-container {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.logo {
+    letter-spacing: .3em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.menu-items li {
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.menu-items li:hover{
+    color: var(--hover-color);
+}

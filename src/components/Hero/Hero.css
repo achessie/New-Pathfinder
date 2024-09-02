@@ -1,0 +1,41 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .hero-items {
+    text-align: center;
+  }
+  
+  .hero-header {
+    font-size: 3rem;
+  }
+  .hero-description {
+    margin: 20px 0;
+    font-size: 1rem;
+  }
+  
+  .get-started-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .get-started-container button {
+    background-color: var(--blue-color);
+    border: none;
+    outline: none;
+    border-radius: .5em;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.get-started-container button:hover {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+}
